@@ -146,8 +146,27 @@ footer {
 
 /* media queries */
 
-@media only screen and (max-width:1024) {
+@media only screen and (max-width:1024px) {
   .product {
     width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
+
+/* navigation bar adjustments */
+
+@media only screen and (max-width: 1024px) {
+
+nav ul {
+  display: none;
+}
+
+.tablet-nav {
+    display: block;
+    text-align: center;
   }
 }
