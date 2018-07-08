@@ -190,6 +190,7 @@ nav ul {
 
 .greeting h4 {
   font-size: .77rem;
+  height: auto;
 }
 
 .main-banner {
@@ -212,8 +213,20 @@ nav ul {
   padding-left: 2rem;
 }
 
-.info {
+.info  {
   width: 90%;
+}
+
+.info  {
+  padding-bottom: 0.5rem;
+}
+
+.details {
+  background-color: grey;
+}
+
+.title {
+  padding-top: 0.5rem;
 }
 
 .products, .contactinfo {
