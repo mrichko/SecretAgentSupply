@@ -197,7 +197,7 @@ h4 {
 }
 
 .greeting {
-  width: 100%;
+  width: auto;
   padding: 1rem 2rem;
   bottom: 1.3rem;
 }
@@ -220,7 +220,10 @@ h4 {
 .products, .contactinfo {
   flex-wrap: wrap;
   padding-top: 3rem;
+  padding-right: 1.5rem;
 }
+
+
 
 .tablet-nav {
     display: block;
@@ -228,7 +231,6 @@ h4 {
   }
 
 footer {
-  text-align: center;
 }
 
 
