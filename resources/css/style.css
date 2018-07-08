@@ -184,12 +184,12 @@ nav ul {
 @media only screen and (max-width: 470px) {
 
 
-h1 {
+.greeting h1 {
   font-size: 1rem;
 }
 
-h4 {
-  font-size: 0.77rem;
+.greeting h4 {
+  font-size: .77rem;
 }
 
 .main-banner {
@@ -209,20 +209,18 @@ h4 {
 
 .products {
   width: 90%;
-  margin: auto;
+  padding-left: 2rem;
 }
 
 .info {
   width: 90%;
-  margin: 0.5rem auto;
 }
 
 .products, .contactinfo {
   flex-wrap: wrap;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-right: 1.5rem;
 }
-
 
 
 .tablet-nav {
