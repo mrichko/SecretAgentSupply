@@ -157,7 +157,8 @@ footer {
 }
 
 
-/* navigation bar adjustments */
+
+/* navigation bar adjustments - tablet support */
 
 @media only screen and (max-width: 1024px) {
 
@@ -169,4 +170,66 @@ nav ul {
     display: block;
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tablet-nav {
+    display: none;
+  }
+}
+
+
+/* mobile phone support */
+
+@media only screen and (max-width: 470px) {
+
+
+h1 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.77rem;
+}
+
+.main-banner {
+  height: 15rem;
+}
+
+.greeting {
+  width: 100%;
+  padding: 1rem 2rem;
+  bottom: 1.3rem;
+}
+
+.watch, .glasses {
+  display: none;
+}
+
+
+.products {
+  width: 90%;
+  margin: auto;
+}
+
+.info {
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+.products, .contactinfo {
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.tablet-nav {
+    display: block;
+    width: 100%;
+  }
+
+footer {
+  text-align: center;
+}
+
+
 }
