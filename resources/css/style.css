@@ -200,7 +200,6 @@ nav ul {
 .greeting {
   width: auto;
   padding: 1rem 2rem;
-  bottom: 1.3rem;
 }
 
 .watch, .glasses {
@@ -210,7 +209,6 @@ nav ul {
 
 .products {
   width: 90%;
-  padding-left: 2rem;
 }
 
 .info  {
@@ -240,9 +238,3 @@ nav ul {
     display: block;
     width: 100%;
   }
-
-footer {
-}
-
-
-}
