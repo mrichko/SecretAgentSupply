@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
 }
-
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
 body {
@@ -237,6 +239,7 @@ nav ul {
     width: 90%;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    margin-right: 32rem;
   }
 
   /*footer */
