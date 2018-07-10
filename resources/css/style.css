@@ -142,12 +142,10 @@ img {
 /* footer */
 
 footer {
-  display: block;
   background-color: black;
   color: white;
   margin-top: 4rem;
-  padding: 5rem;
-  text-align: left;
+  padding: 5rem 0;
 }
 
 /* media queries */
@@ -240,3 +238,11 @@ nav ul {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
+
+  /*footer */
+
+  footer {
+    text-align: center;
+  }
+
+}
