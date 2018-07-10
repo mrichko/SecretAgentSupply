@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
 body {
   margin: 0;
   font-family: Helvetica;
@@ -183,7 +189,7 @@ nav ul {
 
 @media only screen and (max-width: 470px) {
 
-
+/* main welcome section */
 .greeting h1 {
   font-size: 1rem;
 }
@@ -200,7 +206,11 @@ nav ul {
 .greeting {
   width: auto;
   padding: 1rem 2rem;
+  bottom: 1.3rem;
 }
+
+
+/* product section */
 
 .watch, .glasses {
   display: none;
@@ -209,32 +219,24 @@ nav ul {
 
 .products {
   width: 90%;
-}
-
-.info  {
-  width: 90%;
-}
-
-.info  {
-  padding-bottom: 0.5rem;
-}
-
-.details {
-  background-color: grey;
-}
-
-.title {
-  padding-top: 0.5rem;
+  padding-left: 2rem;
 }
 
 .products, .contactinfo {
   flex-wrap: wrap;
-  padding-top: 1rem;
-  padding-right: 1.5rem;
 }
+
+
+/*contact info */
 
 
 .tablet-nav {
     display: block;
     width: 100%;
+  }
+
+.info {
+    width: 90%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
