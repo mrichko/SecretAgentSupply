@@ -1,9 +1,13 @@
 
 
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
 body {
   margin: 0;
-  font-family: Helvetica;
-  font-size: 18px;
+  font-family: Helvetica, sans-serif;
 }
 
 /*--header -- */
@@ -27,7 +31,7 @@ header span{
 }
 
 .container {
-  width: 966px;
+  max-width: 966px;
   margin: 0 auto;
 }
 
@@ -35,7 +39,6 @@ header span{
 /* main banner */
 
 .main-banner {
-  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
@@ -44,22 +47,23 @@ header span{
 }
 
 .greeting {
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  position: relative;
-  margin-top: 9rem;
-  padding: 2rem 3rem;
-  width: 20rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 9rem;
+    padding: 2rem 3rem;
+    width: 20rem;
 }
 
 h4 {
   font-size: 1rem;
 }
 
-h1 {
+.greeting h1 {
+  margin: 0.25rem 0;
   font-size: 2rem;
-  padding-top: 0.25rem;
+  line-height: 1.2;
 }
 
 /* nav section */
@@ -100,7 +104,7 @@ nav ul {
 }
 
 .product-image img {
-  max-width: 8em;
+  max-width: 8rem;
 }
 
 
@@ -113,16 +117,10 @@ img {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 /* contact info */
-
-.contactinfo {
-  display: flex;
-  justify-content: space-between;
-  margin: 3em 0 0 0;
-}
 
 .info {
   width: 35%;
@@ -134,6 +132,15 @@ img {
   color: white;
   padding: 1rem 2rem;
 }
+
+.products,
+.contactinfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+}
+
 
 /* footer */
 
@@ -190,18 +197,18 @@ nav ul {
 
 .greeting h4 {
   font-size: .77rem;
-  height: auto;
+}
+
+.greeting {
+width: 100%;
+padding: 1rem 2rem;
+top: 10rem;
 }
 
 .main-banner {
   height: 15rem;
 }
 
-.greeting {
-  width: auto;
-  padding: 1rem 2rem;
-  bottom: 1.3rem;
-}
 
 
 /* product section */
@@ -211,12 +218,13 @@ nav ul {
 }
 
 
-.products {
+.product {
   width: 90%;
-  padding-left: 2rem;
+  margin: auto;
 }
 
-.products, .contactinfo {
+.products,
+.contactinfo {
   flex-wrap: wrap;
 }
 
@@ -230,10 +238,8 @@ nav ul {
   }
 
 .info {
-    width: 90%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 32rem;
+  width: 90%;
+  margin: 0.5rem auto;
   }
 
   /*footer */
