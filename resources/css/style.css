@@ -239,7 +239,8 @@ top: 10rem;
 
 .info {
   width: 90%;
-  margin: 0.5rem auto;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
   }
 
   /*footer */
